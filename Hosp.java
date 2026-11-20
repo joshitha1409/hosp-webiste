@@ -48,11 +48,11 @@ public class Hosp {
 
          // Display Users
          System.out.println("=== User Info ===");
-         users.forEach(HospitalManagementSystemV2::processUser);
+         users.forEach(Hosp::processUser);
 
          // Display Services
          System.out.println("\n=== Service Info ===");
-         services.forEach(HospitalManagementSystemV2::processService);
+         services.forEach(Hosp::processService);
     }    
 
     // ===== Pattern Matching Switch for Users =====
